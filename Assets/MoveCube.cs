@@ -13,6 +13,7 @@ public class MoveCube : MonoBehaviour
         mainCamera = GetComponent<Camera>();
     }
 
+
     void Start()
     {
        
