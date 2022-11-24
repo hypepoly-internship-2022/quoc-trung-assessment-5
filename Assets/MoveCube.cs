@@ -13,7 +13,6 @@ public class MoveCube : MonoBehaviour
         mainCamera = GetComponent<Camera>();
     }
 
-
     void Start()
     {
        
@@ -35,6 +34,7 @@ public class MoveCube : MonoBehaviour
                 }
             }
         }
+
         else
         {
             cube1.velocity = Vector3.zero;
